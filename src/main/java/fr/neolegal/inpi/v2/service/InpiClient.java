@@ -37,7 +37,7 @@ import org.springframework.web.util.UriComponentsBuilder;
  * Pour les actes :
  * https://www.inpi.fr/sites/default/files/documentation%20technique%20API%20Actes%20v1.1.pdf
  */
-public class InpiServiceV2 {
+public class InpiClient {
 
     DecodedJWT jwt;
     final String api;
@@ -46,7 +46,13 @@ public class InpiServiceV2 {
 
     final RestTemplate restTemplate;
 
-    public InpiServiceV2(
+    public InpiClient(
+            String username,
+            String password) {
+        this("https://registre-national-entreprises.inpi.fr/api/", username, password);
+    }
+
+    public InpiClient(
             String apiUrl,
             String username,
             String password) {
