@@ -8,8 +8,11 @@
   <artifactId>inpi-client</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>inpi-client</name>
-  <!-- FIXME change it to the project's website -->
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>
+        Client JAVA pour la version 2 des API INPI.
+  </description>
+
   <url>https://github.com/nicolasriousset/inpi-client</url>
 
   <developers>
@@ -27,6 +30,12 @@
     <url>https://github.com/nicolasriousset/inpi-client/tree/main</url>
   </scm>
 
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
 
   <properties>
     <maven.version>3.11.0</maven.version>
@@ -95,7 +104,7 @@
       <artifactId>java-jwt</artifactId>
       <version>4.4.0</version>
     </dependency>
-  
+
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
