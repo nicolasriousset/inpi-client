@@ -10,14 +10,19 @@ import fr.neolegal.inpi.v2.dto.Acte;
 import fr.neolegal.inpi.v2.dto.Attachments;
 import fr.neolegal.inpi.v2.dto.Companies;
 import fr.neolegal.inpi.v2.dto.Company;
+import fr.neolegal.inpi.v2.dto.Composition;
+import fr.neolegal.inpi.v2.dto.Content;
 import fr.neolegal.inpi.v2.dto.Credentials;
+import fr.neolegal.inpi.v2.dto.Formality;
 import fr.neolegal.inpi.v2.dto.LoginResponse;
+import fr.neolegal.inpi.v2.dto.PersonneMorale;
 import fr.neolegal.inpi.v2.dto.Pouvoir;
 
 import java.time.LocalDate;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -98,17 +103,10 @@ public class InpiClient {
     }
 
     public Optional<Company> findBySiren(String siren) {
-        try {
-            return Optional.of(findCompany(siren, null));
-        } catch (HttpClientErrorException e) {
-            if (e.getStatusCode() == HttpStatus.NOT_FOUND) {
-                return Optional.empty();
-            }
-            throw e;
-        }
+        return findCompany(siren, null);
     }
 
-    private Company findCompany(String siren, LocalDate date) {
+    public Optional<Company> findCompany(String siren, LocalDate date) {
         login();
 
         HttpEntity<String> entity = new HttpEntity<>(builHeaders());
@@ -123,7 +121,14 @@ public class InpiClient {
         // endPoint = String.format("%s?date=%s", endPoint, date.toString());
         // }
 
-        return restTemplate.exchange(endPoint, HttpMethod.GET, entity, Company.class).getBody();
+        try {
+            return Optional.of(restTemplate.exchange(endPoint, HttpMethod.GET, entity, Company.class).getBody());
+        } catch (HttpClientErrorException e) {
+            if (e.getStatusCode() == HttpStatus.NOT_FOUND) {
+                return Optional.empty();
+            }
+            throw e;
+        }
     }
 
     public Attachments findAttachmentsBySiren(String siren) {
@@ -168,12 +173,11 @@ public class InpiClient {
     Collection<Pouvoir> retrieveRepresentants(Acte acte) {
         // Pour obtenir des détails sur la société, on récupère son état au moment du
         // dépôt des statuts
-        Company company = findCompany(acte.getSiren(), acte.getDateDepot());
-        return company
-                .getFormality()
-                .getContent()
-                .getPersonneMorale()
-                .getComposition()
-                .getPouvoirs();
+        Optional<Company> company = findCompany(acte.getSiren(), acte.getDateDepot());
+        return company.map(Company::getFormality)
+                .map(Formality::getContent)
+                .map(Content::getPersonneMorale)
+                .map(PersonneMorale::getComposition)
+                .map(Composition::getPouvoirs).orElse(new LinkedList<>());
     }
 }
