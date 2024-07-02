@@ -1,8 +1,9 @@
 package fr.neolegal.inpi.v2.dto;
 
-import java.time.Instant;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.time.LocalDate;
 
 @Getter
 @Setter
@@ -17,7 +18,7 @@ public class Entreprise {
     String codeApe;
     Boolean indicateurAssocieUnique;
     String dateEffet;
-    Instant dateImmat;
+    LocalDate dateImmat;
     Integer numDetenteur;
     Integer numExploitant;
     Integer numRna;
