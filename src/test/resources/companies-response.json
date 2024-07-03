@@ -1,0 +1,522 @@
+[
+    {
+        "updatedAt": "2024-07-03T06:35:07+02:00",
+        "nombreRepresentantsActifs": 2,
+        "nombreEtablissementsOuverts": 0,
+        "nombreBeneficiairesEffectifsActifs": 2,
+        "id": "654383c5d8ebab2c76016941",
+        "formality": {
+            "siren": "980704894",
+            "content": {
+                "succursaleOuFiliale": "AVEC_ETABLISSEMENT",
+                "formeExerciceActivitePrincipale": "COMMERCIALE",
+                "natureCreation": {
+                    "dateCreation": "2023-11-02",
+                    "societeEtrangere": false,
+                    "formeJuridique": "5710",
+                    "formeJuridiqueInsee": "5710",
+                    "etablieEnFrance": true,
+                    "salarieEnFrance": true,
+                    "relieeEntrepriseAgricole": false,
+                    "entrepriseAgricole": false
+                },
+                "personneMorale": {
+                    "beneficiairesEffectifs": [
+                        {
+                            "actif": true,
+                            "beneficiaireId": "f4107a22-310b-43e2-9933-41c7225db5ad",
+                            "indexPouvoir": 0,
+                            "beneficiaire": {
+                                "descriptionPersonne": {
+                                    "sirenPresent": false,
+                                    "dateEffetRoleDeclarantPresent": true,
+                                    "genrePresent": true,
+                                    "titrePresent": false,
+                                    "dateDeNaissance": "1987-09",
+                                    "dateDeNaissancePresent": true,
+                                    "paysNaissancePresent": true,
+                                    "codePaysNaissancePresent": false,
+                                    "lieuDeNaissancePresent": true,
+                                    "codePostalNaissancePresent": true,
+                                    "codeInseeGeographiquePresent": true,
+                                    "situationMatrimonialePresent": false,
+                                    "qualiteDeNonSedentaritePresent": false,
+                                    "indicateurDeNonSedentaritePresent": false,
+                                    "nom": "ALVES",
+                                    "prenoms": [
+                                        "Bruno"
+                                    ],
+                                    "codeNationalite": "FRA"
+                                },
+                                "adresseDomicile": {
+                                    "roleAdressePresent": false,
+                                    "codePostalPresent": true,
+                                    "communePresent": true,
+                                    "codeInseeCommunePresent": true,
+                                    "typeVoiePresent": true,
+                                    "voiePresent": true,
+                                    "voieCodifieePresent": false,
+                                    "numVoiePresent": true,
+                                    "indiceRepetitionPresent": false,
+                                    "distributionSpecialePresent": false,
+                                    "communeAnciennePresent": false,
+                                    "rgpdPresent": false,
+                                    "datePriseEffetAdressePresent": false,
+                                    "complementLocalisationPresent": false,
+                                    "communeDeRattachementPresent": false,
+                                    "caracteristiquesPresent": false,
+                                    "indicateurValidationBANPresent": true,
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA"
+                                },
+                                "indicateurActifAgricole": false
+                            },
+                            "modalite": {
+                                "detentionPartDirecte": true,
+                                "detentionPartDirecteRdd": 0.0,
+                                "partsDirectesPleinePropriete": 51.0,
+                                "partsDirectesNuePropriete": 0.0,
+                                "detentionPartIndirecte": false,
+                                "detentionPartIndirecteRdd": 0.0,
+                                "partsIndirectesIndivision": 0.0,
+                                "partsIndirectesIndivisionPleinePropriete": 0.0,
+                                "partsIndirectesIndivisionNuePropriete": 0.0,
+                                "partsIndirectesPersonnesMorales": 0.0,
+                                "partsIndirectesPmoralesPleinePropriete": 0.0,
+                                "partsIndirectesPmoralesNuePropriete": 0.0,
+                                "detentionPartTotale": 51.0,
+                                "detentionVoteDirecte": true,
+                                "detentionVoteDirecteRdd": 0.0,
+                                "voteDirectePleinePropriete": 51.0,
+                                "voteDirecteNuePropriete": 0.0,
+                                "voteDirecteUsufruit": 0.0,
+                                "detentionVoteIndirecte": false,
+                                "detentionVoteIndirecteRdd": 0.0,
+                                "voteIndirecteIndivision": 0.0,
+                                "voteIndirecteIndivisionPleinePropriete": 0.0,
+                                "voteIndirecteIndivisionNuePropriete": 0.0,
+                                "voteIndirecteIndivisionUsufruit": 0.0,
+                                "voteIndirectePersonnesMorales": 0.0,
+                                "voteIndirectePmoralesPleinePropriete": 0.0,
+                                "voteIndirectePmoralesNuePropriete": 0.0,
+                                "voteIndirectePmoralesUsufruit": 0.0,
+                                "vocationTitulaireDirectePleineProprieteRdd": false,
+                                "vocationTitulaireDirectePleinePropriete": 0.0,
+                                "vocationTitulaireDirecteNuePropriete": 0.0,
+                                "vocationTitulaireIndirecteIndivision": 0.0,
+                                "vocationTitulaireIndirectePleineProprieteRdd": false,
+                                "vocationTitulaireIndirectePleinePropriete": 0.0,
+                                "vocationTitulaireIndirecteNuePropriete": 0.0,
+                                "vocationTitulaireIndirectePersonnesMorales": 0.0,
+                                "vocationTitulaireIndirectePmoralesPleinePropriete": 0.0,
+                                "vocationTitulaireIndirectePmoralesNuePropriete": 0.0,
+                                "detentionVoteTotal": 51.0,
+                                "modalitesDeControle": [
+                                    "1"
+                                ],
+                                "detention25pCapital": true,
+                                "detention25pDroitVote": true
+                            }
+                        },
+                        {
+                            "actif": true,
+                            "beneficiaireId": "7e7f8b7e-5d7a-4836-bfe1-6348e4eacea9",
+                            "indexPouvoir": 0,
+                            "beneficiaire": {
+                                "descriptionPersonne": {
+                                    "sirenPresent": false,
+                                    "dateEffetRoleDeclarantPresent": true,
+                                    "genrePresent": true,
+                                    "titrePresent": false,
+                                    "dateDeNaissance": "1987-09",
+                                    "dateDeNaissancePresent": true,
+                                    "paysNaissancePresent": true,
+                                    "codePaysNaissancePresent": false,
+                                    "lieuDeNaissancePresent": true,
+                                    "codePostalNaissancePresent": true,
+                                    "codeInseeGeographiquePresent": true,
+                                    "situationMatrimonialePresent": false,
+                                    "qualiteDeNonSedentaritePresent": false,
+                                    "indicateurDeNonSedentaritePresent": false,
+                                    "nom": "ALVES",
+                                    "prenoms": [
+                                        "Bruno"
+                                    ],
+                                    "codeNationalite": "FRA"
+                                },
+                                "adresseDomicile": {
+                                    "roleAdressePresent": false,
+                                    "codePostalPresent": true,
+                                    "communePresent": true,
+                                    "codeInseeCommunePresent": true,
+                                    "typeVoiePresent": true,
+                                    "voiePresent": true,
+                                    "voieCodifieePresent": false,
+                                    "numVoiePresent": true,
+                                    "indiceRepetitionPresent": false,
+                                    "distributionSpecialePresent": false,
+                                    "communeAnciennePresent": false,
+                                    "rgpdPresent": false,
+                                    "datePriseEffetAdressePresent": false,
+                                    "complementLocalisationPresent": false,
+                                    "communeDeRattachementPresent": false,
+                                    "caracteristiquesPresent": false,
+                                    "indicateurValidationBANPresent": true,
+                                    "pays": "FRANCE",
+                                    "codePays": "FRA"
+                                },
+                                "indicateurActifAgricole": false
+                            },
+                            "modalite": {
+                                "detentionPartDirecte": true,
+                                "detentionPartDirecteRdd": 0.0,
+                                "partsDirectesPleinePropriete": 45.0,
+                                "partsDirectesNuePropriete": 0.0,
+                                "detentionPartIndirecte": false,
+                                "detentionPartIndirecteRdd": 0.0,
+                                "partsIndirectesIndivision": 0.0,
+                                "partsIndirectesIndivisionPleinePropriete": 0.0,
+                                "partsIndirectesIndivisionNuePropriete": 0.0,
+                                "partsIndirectesPersonnesMorales": 0.0,
+                                "partsIndirectesPmoralesPleinePropriete": 0.0,
+                                "partsIndirectesPmoralesNuePropriete": 0.0,
+                                "detentionPartTotale": 45.0,
+                                "detentionVoteDirecte": true,
+                                "detentionVoteDirecteRdd": 0.0,
+                                "voteDirectePleinePropriete": 45.0,
+                                "voteDirecteNuePropriete": 0.0,
+                                "voteDirecteUsufruit": 0.0,
+                                "detentionVoteIndirecte": false,
+                                "detentionVoteIndirecteRdd": 0.0,
+                                "voteIndirecteIndivision": 0.0,
+                                "voteIndirecteIndivisionPleinePropriete": 0.0,
+                                "voteIndirecteIndivisionNuePropriete": 0.0,
+                                "voteIndirecteIndivisionUsufruit": 0.0,
+                                "voteIndirectePersonnesMorales": 0.0,
+                                "voteIndirectePmoralesPleinePropriete": 0.0,
+                                "voteIndirectePmoralesNuePropriete": 0.0,
+                                "voteIndirectePmoralesUsufruit": 0.0,
+                                "vocationTitulaireDirectePleineProprieteRdd": false,
+                                "vocationTitulaireDirectePleinePropriete": 0.0,
+                                "vocationTitulaireDirecteNuePropriete": 0.0,
+                                "vocationTitulaireIndirecteIndivision": 0.0,
+                                "vocationTitulaireIndirectePleineProprieteRdd": false,
+                                "vocationTitulaireIndirectePleinePropriete": 0.0,
+                                "vocationTitulaireIndirecteNuePropriete": 0.0,
+                                "vocationTitulaireIndirectePersonnesMorales": 0.0,
+                                "vocationTitulaireIndirectePmoralesPleinePropriete": 0.0,
+                                "vocationTitulaireIndirectePmoralesNuePropriete": 0.0,
+                                "detentionVoteTotal": 45.0,
+                                "modalitesDeControle": [
+                                    "1"
+                                ],
+                                "detention25pCapital": true,
+                                "detention25pDroitVote": true
+                            }
+                        }
+                    ],
+                    "adresseEntreprise": {
+                        "caracteristiques": {
+                            "domiciliataire": false
+                        },
+                        "adresse": {
+                            "roleAdressePresent": false,
+                            "codePostalPresent": true,
+                            "communePresent": true,
+                            "codeInseeCommunePresent": true,
+                            "typeVoiePresent": true,
+                            "voiePresent": true,
+                            "voieCodifieePresent": false,
+                            "numVoiePresent": true,
+                            "indiceRepetitionPresent": false,
+                            "distributionSpecialePresent": false,
+                            "communeAnciennePresent": false,
+                            "rgpdPresent": false,
+                            "datePriseEffetAdressePresent": false,
+                            "complementLocalisationPresent": false,
+                            "communeDeRattachementPresent": false,
+                            "caracteristiquesPresent": true,
+                            "indicateurValidationBANPresent": true,
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "94500",
+                            "commune": "Champigny-sur-Marne",
+                            "codeInseeCommune": "94017",
+                            "typeVoie": "RUE",
+                            "voie": "Albert",
+                            "numVoie": "185",
+                            "caracteristiques": {
+                                "domiciliataire": false
+                            }
+                        }
+                    },
+                    "etablissementPrincipal": {
+                        "descriptionEtablissement": {
+                            "rolePourEntreprise": "2",
+                            "siret": "98070489400016",
+                            "sansActiviteAutreActiviteSiege": false,
+                            "indicateurEtablissementPrincipal": true,
+                            "statutPourFormalite": "4",
+                            "etablissementValidated": false,
+                            "etablissementRdd": true
+                        },
+                        "adresse": {
+                            "roleAdressePresent": false,
+                            "codePostalPresent": true,
+                            "communePresent": true,
+                            "codeInseeCommunePresent": true,
+                            "typeVoiePresent": true,
+                            "voiePresent": true,
+                            "voieCodifieePresent": false,
+                            "numVoiePresent": true,
+                            "indiceRepetitionPresent": false,
+                            "distributionSpecialePresent": false,
+                            "communeAnciennePresent": false,
+                            "rgpdPresent": false,
+                            "datePriseEffetAdressePresent": false,
+                            "complementLocalisationPresent": false,
+                            "communeDeRattachementPresent": false,
+                            "caracteristiquesPresent": true,
+                            "indicateurValidationBANPresent": true,
+                            "pays": "FRANCE",
+                            "codePays": "FRA",
+                            "codePostal": "94500",
+                            "commune": "Champigny-sur-Marne",
+                            "codeInseeCommune": "94017",
+                            "typeVoie": "RUE",
+                            "voie": "Albert",
+                            "numVoie": "185",
+                            "caracteristiques": {
+                                "domiciliataire": false
+                            }
+                        },
+                        "activites": [
+                            {
+                                "categoryCode": "07040106",
+                                "activiteId": "f992ef7b-8079-447c-a076-a07783e82d9d",
+                                "indicateurPrincipal": true,
+                                "indicateurProlongement": false,
+                                "dateDebut": "2023-10-15",
+                                "exerciceActivite": "P",
+                                "indicateurNonSedentaire": false,
+                                "formeExercice": "COMMERCIALE",
+                                "categorisationActivite1": "07",
+                                "categorisationActivite2": "04",
+                                "categorisationActivite3": "01",
+                                "categorisationActivite4": "06",
+                                "descriptionDetaillee": "L'activité de société holding, en ce compris la prise de participation, directe ou indirecte, la réalisation d'investissements",
+                                "indicateurActiviteeApe": false,
+                                "precisionActivite": "99",
+                                "precisionAutre": "Activité de services",
+                                "rolePrincipalPourEntreprise": true,
+                                "codeApe": "4110A",
+                                "activiteRattacheeEirl": false,
+                                "origine": {
+                                    "typeOrigine": "1"
+                                }
+                            },
+                            {
+                                "categoryCode": "07040308",
+                                "activiteId": "56fb9831-5131-439e-90a2-df359569b26d",
+                                "indicateurPrincipal": false,
+                                "indicateurProlongement": false,
+                                "dateDebut": "2023-10-15",
+                                "exerciceActivite": "P",
+                                "indicateurNonSedentaire": false,
+                                "formeExercice": "COMMERCIALE",
+                                "categorisationActivite1": "07",
+                                "categorisationActivite2": "04",
+                                "categorisationActivite3": "03",
+                                "categorisationActivite4": "08",
+                                "descriptionDetaillee": "L'acquisition, la gestion, l'amélioration, la transformation, la construction, la location et revente de biens immobiliers; ",
+                                "indicateurActiviteeApe": false,
+                                "precisionActivite": "99",
+                                "precisionAutre": "Activité de services",
+                                "rolePrincipalPourEntreprise": false,
+                                "activiteRattacheeEirl": false,
+                                "origine": {
+                                    "typeOrigine": "1"
+                                }
+                            }
+                        ]
+                    },
+                    "composition": {
+                        "pouvoirs": [
+                            {
+                                "roleEntreprise": "73",
+                                "typeDePersonne": "INDIVIDU",
+                                "indicateurActifAgricole": false,
+                                "representantId": "8f3fadbe-24b7-4c71-a27d-97914fc081d6",
+                                "individu": {
+                                    "descriptionPersonne": {
+                                        "sirenPresent": false,
+                                        "dateEffetRoleDeclarantPresent": true,
+                                        "genrePresent": true,
+                                        "titrePresent": false,
+                                        "dateDeNaissance": "1987-09",
+                                        "dateDeNaissancePresent": true,
+                                        "paysNaissancePresent": true,
+                                        "codePaysNaissancePresent": false,
+                                        "lieuDeNaissancePresent": true,
+                                        "codePostalNaissancePresent": true,
+                                        "codeInseeGeographiquePresent": true,
+                                        "situationMatrimonialePresent": false,
+                                        "qualiteDeNonSedentaritePresent": false,
+                                        "indicateurDeNonSedentaritePresent": false,
+                                        "dateEffetRoleDeclarant": "2023-10-15",
+                                        "nom": "ALVES",
+                                        "prenoms": [
+                                            "Bruno"
+                                        ],
+                                        "genre": "1",
+                                        "nationalite": "FRANÇAISE",
+                                        "codeNationalite": "FRA"
+                                    },
+                                    "adresseDomicile": {
+                                        "roleAdressePresent": false,
+                                        "codePostalPresent": true,
+                                        "communePresent": true,
+                                        "codeInseeCommunePresent": true,
+                                        "typeVoiePresent": true,
+                                        "voiePresent": true,
+                                        "voieCodifieePresent": false,
+                                        "numVoiePresent": true,
+                                        "indiceRepetitionPresent": false,
+                                        "distributionSpecialePresent": false,
+                                        "communeAnciennePresent": false,
+                                        "rgpdPresent": false,
+                                        "datePriseEffetAdressePresent": false,
+                                        "complementLocalisationPresent": false,
+                                        "communeDeRattachementPresent": false,
+                                        "caracteristiquesPresent": false,
+                                        "indicateurValidationBANPresent": true,
+                                        "pays": "FRANCE",
+                                        "codePays": "FRA",
+                                        "codePostal": "94500",
+                                        "commune": "Champigny-sur-Marne",
+                                        "codeInseeCommune": "94017"
+                                    },
+                                    "indicateurActifAgricole": false
+                                },
+                                "actif": true
+                            },
+                            {
+                                "roleEntreprise": "53",
+                                "typeDePersonne": "INDIVIDU",
+                                "indicateurActifAgricole": false,
+                                "representantId": "4957ef32-ae60-4829-b876-5d66cd6d2e6f",
+                                "individu": {
+                                    "descriptionPersonne": {
+                                        "sirenPresent": false,
+                                        "dateEffetRoleDeclarantPresent": true,
+                                        "genrePresent": true,
+                                        "titrePresent": false,
+                                        "dateDeNaissance": "1983-01",
+                                        "dateDeNaissancePresent": true,
+                                        "paysNaissancePresent": true,
+                                        "codePaysNaissancePresent": false,
+                                        "lieuDeNaissancePresent": false,
+                                        "codePostalNaissancePresent": false,
+                                        "codeInseeGeographiquePresent": false,
+                                        "situationMatrimonialePresent": false,
+                                        "qualiteDeNonSedentaritePresent": false,
+                                        "indicateurDeNonSedentaritePresent": false,
+                                        "dateEffetRoleDeclarant": "2023-10-15",
+                                        "nom": "DE SA FERNANDES",
+                                        "prenoms": [
+                                            "Katia"
+                                        ],
+                                        "genre": "2",
+                                        "nomUsage": "FERNANDES ALVES",
+                                        "nationalite": "FRANÇAISE",
+                                        "codeNationalite": "FRA"
+                                    },
+                                    "adresseDomicile": {
+                                        "roleAdressePresent": false,
+                                        "codePostalPresent": true,
+                                        "communePresent": true,
+                                        "codeInseeCommunePresent": true,
+                                        "typeVoiePresent": true,
+                                        "voiePresent": true,
+                                        "voieCodifieePresent": false,
+                                        "numVoiePresent": true,
+                                        "indiceRepetitionPresent": false,
+                                        "distributionSpecialePresent": false,
+                                        "communeAnciennePresent": false,
+                                        "rgpdPresent": false,
+                                        "datePriseEffetAdressePresent": false,
+                                        "complementLocalisationPresent": false,
+                                        "communeDeRattachementPresent": false,
+                                        "caracteristiquesPresent": false,
+                                        "indicateurValidationBANPresent": true,
+                                        "pays": "FRANCE",
+                                        "codePays": "FRA",
+                                        "codePostal": "94500",
+                                        "commune": "Champigny-sur-Marne",
+                                        "codeInseeCommune": "94017"
+                                    },
+                                    "indicateurActifAgricole": false
+                                },
+                                "actif": true
+                            }
+                        ]
+                    },
+                    "identite": {
+                        "entreprise": {
+                            "siren": "980704894",
+                            "denomination": "BKMD CAPITAL",
+                            "formeJuridique": "5710",
+                            "nicSiege": "00016",
+                            "codeApe": "4110A",
+                            "entrepriseValidated": false,
+                            "entrepriseRdd": true
+                        },
+                        "description": {
+                            "objet": "La société a pour objet directement ou indirectement, tant en France qu'à l'étranger :\nL'activité de société holding, en ce compris la prise de participation, directe ou indirecte, la réalisation\nd'investissements (y compris immobiliers) et le montage et la structuration d'opérations\nd'investissement ;\n- La gestion, l'administration et la cession/ou la liquidation, dans les meilleures conditions, de ces\nparticipations ;\n- L'acquisition, la gestion, l'amélioration, la transformation, la construction, la location et revente de\nbiens immobiliers;\n- L'achat et revente de produits et matériaux;\n- La prestation de services dans le domaine de la construction et l'immobilier\n\n",
+                            "duree": 99,
+                            "datePremiereCloture": "2024-12-31",
+                            "ess": false,
+                            "societeMission": false,
+                            "capitalVariable": false,
+                            "montantCapital": 1000.0,
+                            "deviseCapital": "EUR",
+                            "indicateurOrigineFusionScission": false,
+                            "indicateurAssocieUnique": false,
+                            "depotDemandeAcre": false,
+                            "prorogationDuree": false,
+                            "continuationAvecActifNetInferieurMoitieCapital": false,
+                            "reconstitutionCapitauxPropres": false
+                        },
+                        "publicationLegale": {
+                            "typePublication": "Publication légale",
+                            "datePublication": "2023-10-18",
+                            "journalPublication": "affiches-parisiennes.com"
+                        }
+                    },
+                    "structureEntreprise": {
+                        "indicateurPrincipalIdemSiege": true,
+                        "aucuneActivite": false
+                    }
+                }
+            },
+            "diffusionINSEE": "O",
+            "typePersonne": "M",
+            "diffusionCommerciale": true,
+            "historique": [
+                {
+                    "dateIntegration": "2023-11-02T12:11:01+01:00",
+                    "codeEvenement": "01M",
+                    "libelleEvenement": "Création d’une entreprise personne morale",
+                    "numeroLiasse": "J00037644085",
+                    "patchId": "654383c5d8ebab2c76016940_0",
+                    "dateEffet": "2023-11-02T00:00:00+01:00",
+                    "cheminDateEffet": "content.natureCreation.dateCreation"
+                }
+            ],
+            "formeJuridique": "5710",
+            "created": "2023-10-18T12:53:17+02:00",
+            "updated": "2023-11-02T12:05:29+01:00"
+        },
+        "siren": "980704894"
+    }
+]
