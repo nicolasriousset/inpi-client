@@ -15,16 +15,24 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 import fr.neolegal.inpi.v2.dto.Companies;
+import fr.neolegal.inpi.v2.dto.Company;
 
 public class InpiClientTest {
 
     ObjectMapper mapper = configureMapper();
 
     @Test
-    void findBySiren() throws IOException {
-        String json = getResourceFileAsString("companies-response.json");
+    void parseCompanies() throws IOException {
+        String json = getResourceFileAsString("companies.json");
         Companies actual = mapper.readValue(json, Companies.class);
         assertEquals(1, actual.size());
+    }
+
+    @Test
+    void parseCompany() throws IOException {
+        String json = getResourceFileAsString("company.json");
+        Company actual = mapper.readValue(json, Company.class);
+        assertEquals(1, actual.getFormality().getHistorique().size());
     }
 
     static String getResourceFileAsString(String fileName) throws IOException {

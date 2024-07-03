@@ -9,4 +9,5 @@ public class Content {
 
     PersonneMorale personneMorale;
     String formeExerciceActivitePrincipale;
+    NatureCreation natureCreation;
 }

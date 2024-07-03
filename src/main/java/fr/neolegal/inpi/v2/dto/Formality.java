@@ -20,6 +20,6 @@ public class Formality {
     boolean diffusionCommerciale;
     List<Evenement> historique;
     String formeJuridique;
-    // Instant created;
-    // Instant updated;
+    Instant created;
+    Instant updated;
 }

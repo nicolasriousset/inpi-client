@@ -16,6 +16,6 @@ public class Evenement {
     String libelleEvenement;
     String numeroLiasse;
     String patchId;
-    // Instant dateEffet;
+    Instant dateEffet;
     String cheminDateEffet;
 }
