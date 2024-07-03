@@ -1,5 +1,7 @@
 package fr.neolegal.inpi.v2.dto;
 
+import java.time.LocalDate;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -23,7 +25,7 @@ public class Pouvoir {
     RoleEntreprise roleEntreprise;
 
     /** Date d'effet */
-    String dateEffet;
+    LocalDate dateEffet;
 
     /** Etablissement(s) concerné(s) */
     // Collection<PouvoirEtablissement> etablissementConcerne

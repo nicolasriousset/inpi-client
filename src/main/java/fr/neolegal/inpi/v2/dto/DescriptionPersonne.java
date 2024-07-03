@@ -12,7 +12,8 @@ import lombok.Setter;
 public class DescriptionPersonne {
 
     /** Date d'effet rôle déclarant */
-    String dateEffetRoleDeclarant;
+    Boolean dateEffetRoleDeclarantPresent;
+    LocalDate dateEffetRoleDeclarant;
 
     /** Rôle déclarant. Champ libre */
     String role;
@@ -24,9 +25,11 @@ public class DescriptionPersonne {
     Collection<String> prenoms;
 
     /** Genre */
+    Boolean genrePresent;
     Genre genre;
 
     /** Titre */
+    Boolean titrePresent;    
     String titre;
 
     /** Nom d'usage */
@@ -36,6 +39,7 @@ public class DescriptionPersonne {
     String pseudonyme;
 
     /** Date de naissance */
+    Boolean dateDeNaissancePresent;
     String dateDeNaissance;
 
     /** Code nationalité */
@@ -52,6 +56,17 @@ public class DescriptionPersonne {
 
     /** Qualité de non- sédentarité */
     QualiteNonSedentarite qualiteDeNonSedentarite;
+
+    Boolean sirenPresent;        
+    Boolean paysNaissancePresent;
+    Boolean codePaysNaissancePresent;
+    Boolean lieuDeNaissancePresent;
+    Boolean codePostalNaissancePresent;
+    Boolean codeInseeGeographiquePresent;
+    Boolean situationMatrimonialePresent;
+    Boolean qualiteDeNonSedentaritePresent;
+    Boolean indicateurDeNonSedentaritePresent;
+
 
     public LocalDate dateDeNaissanceApproximative() {
         if (isBlank(dateDeNaissance)) return null;
